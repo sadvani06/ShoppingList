@@ -1,39 +1,41 @@
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-
-<link href='http://fonts.googleapis.com/css?family=Leckerli+One' rel='stylesheet' type='text/css'>
-
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Shopping List</title>
+<link href='http://fonts.googleapis.com/css?family=Codystar' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Ubuntu:400,700' rel='stylesheet' type='text/css'>
 
-<link href="style.css" type="text/css" rel="stylesheet">
+<link rel='stylesheet' type='text/css' href="list.css" />
 
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>   
 <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css" />
-
 <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
-
 </head>
-<body>
-    <div id="container">
-        <h1>Shopping List</h1>
-        <!--input item name -->
-            <input type="text" id="inputItem">
-            
-            <button id="submit">Submit</button>
-       
-       <!--lists the items -->
-              <div id="listItem">
-                
-                    <input id="check" type="checkbox">
-                    
-                    <label for="check">item here</label>
-                    
-                    <img src="trash.png" id="trash_icon" > 
-                  
-              </div>
-              
-       
-    </div>
-<script src="shoppinglist.js"></script>
-</body>
 
+<body>
+<script src="shoppingList.js"></script>	
+
+<div id="container">
+    <h1>Shopping List</h1>
+    <!--input item name -->
+        <input type="text" id="inputItem">
+        
+    <!--add and remove button -->
+        <div id="function buttons">
+          <button class="button" id="addBtn">ADD</button>
+          <button class="button" id="removeBtn">REMOVE</button>
+       </div>
+
+    <!--lists the items -->
+          <div id="list">
+           
+       	 </div>
+          
+   
+</div>
+
+
+</body>
 </html>
