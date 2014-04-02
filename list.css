@@ -18,8 +18,8 @@ body{
 
 #container{ 
   margin:0 auto;
-  border:1px solid red;
-  width:600px;
+  
+  width:40%;
   height:100%;
   background: rgba(255, 255, 255, 0.7); 
 }
@@ -71,7 +71,8 @@ input[type=text]{
   border-radius:15px;
   border:1px solid #bbb;
    font-family: 'Ubuntu', sans-serif;
-  width:350px;
+   font-size:1em;
+  width:60%;
   height:25px;
 }
 
@@ -98,7 +99,8 @@ label{
 li{
   border: none;
   font-family: 'Ubuntu', sans-serif;
-  width:450px;
+  font-size:1em;
+  width:60%;
   padding:3px;
   border-radius:15px;
   color:#000;
