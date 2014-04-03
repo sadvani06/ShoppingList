@@ -1,4 +1,4 @@
-<script type="text/javascript">
+
 $("#inputItem").keyup(function(event){
     if(event.keyCode == 13){
             $("#addBtn").click();
@@ -36,4 +36,4 @@ $("#removeBtn").click(function(){
         
   });
 
-</script>
+
